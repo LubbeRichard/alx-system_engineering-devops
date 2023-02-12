@@ -1,0 +1,9 @@
+#!/bin/bash
+#print the absolute path name of the current working directory
+touch README.md
+echo "Where am I?" > README.md
+mkdir 0x00-shell_basics
+cd 0x00-shell_basics
+touch README.md
+echo "print the absolute path name of the current working directory" > README.md
+touch 0-current_working_directory
